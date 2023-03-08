@@ -1,0 +1,37 @@
+/*body{
+    background-image: url('culwallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*/
+h1{
+    color: blue;
+}
+
+.introduction{
+    float:left;
+    width:50%;
+    padding:10px;
+}
+
+.facts_section{
+    float:right;
+    width: 50%;
+    padding:10px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+html{
+    scroll-behavior: smooth;
+}   
+
+#section1{
+    height: 800px;
+    background-color: white;
+}
